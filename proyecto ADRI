@@ -1,9 +1,9 @@
-htlm
-import { useState } from "react"
-import Image from "next/image"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Heart, X } from "lucide-react"
+htlm(  { 
+ import { useState } from "react"
+  import Image from "next/image"
+  import { Button } from "@/components/ui/button"
+  import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+   import { Heart, X } from "lucide-react"
 
 export default function SanValentin() {
   const [respuesta, setRespuesta] = useState<string | null>(null)
